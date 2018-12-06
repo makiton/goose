@@ -9,6 +9,7 @@ import (
 
 	"github.com/kylelemons/go-gypsy/yaml"
 	"github.com/lib/pq"
+	_ "github.com/GoogleCloudPlatform/cloudsql-proxy/proxy/dialers/mysql"
 )
 
 // DBDriver encapsulates the info needed to work with
